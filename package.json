@@ -1,0 +1,26 @@
+{
+  "name": "express-react-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luis-morel/express-react-test.git"
+  },
+  "keywords": [],
+  "author": "Luis Morel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luis-morel/express-react-test/issues"
+  },
+  "homepage": "https://github.com/luis-morel/express-react-test#readme"
+}
